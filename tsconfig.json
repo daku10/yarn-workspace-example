@@ -5,6 +5,10 @@
     "target": "ESNext",
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@package-a": ["packages/package-a/src"]
+    }
   }
 }
